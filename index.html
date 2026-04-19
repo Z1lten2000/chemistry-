@@ -248,8 +248,8 @@
 
     <script>
         window.addEventListener('load', () => {
-            // Рандом от 5000 до 15000 мс
-            const delay = Math.floor(Math.random() * (15000 - 5000 + 1)) + 5000;
+            // Рандом (например, от 1 до 3 секунд):
+            const delay = Math.floor(Math.random() * (3000 - 1000 + 1)) + 1000;
             console.log(`Загрузка завершится через ${delay/1000} сек.`);
 
             setTimeout(() => {
